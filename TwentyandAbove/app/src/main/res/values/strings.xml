@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">20 and Above</string>
+    <string name="splash_screen">20 and Above</string>
+
+    <string name="question_button">Practice Questions</string>
+    <string name="button_text">Another Lesson</string>
+    <string name="default_lesson">•General ACT Tips•
+                \n\n\nSKIP HARD QUESTIONS\n
+                    \nOn the ACT, time pressure is a very real problem for many students. To avoid losing points, you need to learn to skip questions that are giving you trouble before they take up too much of your time. \'Too much of your time\' means something different for each section:\n
+                        •English: more than 30 seconds\n
+                        •Math: more than a minute\n
+                        •Reading: more than 45 seconds\n
+                        •Science: more than 45 seconds
+                    \nAs a rule of thumb, if you feel like you\'re not any closer to figuring out a question after about 30 seconds of looking at it, you should move on. Just circle the question so it\'s easy to spot when you want to come back to it later. Make a quick pass through the whole section, and answer all the easy questions first so you don’t miss points by running out of time before you get through everything.
+                \n\n\nUSE PROCESS OF ELIMINATION\n
+                    \nFor every section of the ACT, use process of elimination as your main strategy for attacking tough or confusing questions. This ties into the fundamental rule of ACT reading, which says that for every question there is only one completely correct answer, and the rest can be eliminated based on evidence in the passage. Process of elimination is more foolproof than trying to pick out the correct answer from the pack. Look for reasons to get rid of choices rather than reasons why they might work. This will help you be more picky about which answer you bubble in and will prevent you from thinking that more than one answer might be correct.
+                    \nIf there\'s even one tiny thing out of place in an answer choice, get rid of it!
+                \n\n\nBUBBLE AT THE END, AND FILL IN EVERY BUBBLE\n
+                    \nYou can save time on the ACT by waiting until the end of a section to bubble in your answers. This cuts down on your time per question because you avoid the process of going back and forth between your test booklet and answer sheet. It\'s more efficient to circle the answers you choose in your test booklet and then fill them in all at once later. Before using this tip, make sure that you can reliably finish the section with at least 3-5 minutes to spare! Don\'t risk running into a situation where you don\'t have enough time to bubble in your answers even though you’ve gone through all the questions.
+                    \nAlso, there is no penalty for guessing on the ACT, so you should fill in every bubble! An incorrect answer and an unanswered question both have the same impact on your raw score.
+                \n\n\nSTAY CALM\n
+                    \nThe most important thing to remember during the test is to keep a cool head. Especially given the time pressure, students who suffer from test anxiety often freak out if they have to skip a few questions. Don\'t let this happen to you! Keep moving forward, and answer whatever you can. You may find questions that initially seemed impossible are much easier when you come back to them.
+                    \nThe nice thing about the ACT is that once you get through a section, you\'re completely done with that subject. You won\'t have to worry about it until the next time you take the test \(if that time even comes\).</string>
+    <string name="tips">• Skip Hard Questions • Use Process of Elimination •\n
+        • Do Not Cram • Fill in Every Bubble • Stay Calm •</string>
+
+    <string name="english_header">ACT ENGLISH QUESTIONS</string>
+    <string name="math_header">ACT MATH QUESTIONS</string>
+    <string name="reading_header">ACT READING QUESTIONS</string>
+    <string name="science_header">ACT SCIENCE QUESTIONS</string>
+
+    <string name="title_activity_practice_questions">Practice Questions</string>
+
+    <string name="question_answer0">I grew up with buckets, shovels, and nets <u>waiting by the back door</u>; hip-waders hanging in the closet; tide table charts covering the refrigerator door; and a mircroscope sitting on the kitchen table.</string>
+    <string name="radio0_text">NO CHANGE</string>
+    <string name="radio1_text">waiting, by the back door,</string>
+    <string name="radio2_text">waiting by the back door,</string>
+    <string name="radio3_text">waiting by the back door</string>
+
+    <string name="question_answer1">His glowing smile <u>are</u> evidence of his pride in the onions—the proof of his labor and love—and in me, the photographer, his son.</string>
+    <string name="radio4_text">NO CHANGE</string>
+    <string name="radio5_text">is</string>
+    <string name="radio6_text">were</string>
+    <string name="radio7_text">OMIT the underlined portion</string>
+
+    <string name="question_answer2">The antara has its origins in the Incan civilization, once the <u>more richer and more</u> empire in South America.</string>
+    <string name="radio8_text">NO CHANGE</string>
+    <string name="radio9_text">one of the richest and most</string>
+    <string name="radio10_text">the richest and most</string>
+    <string name="radio11_text">the richer and more</string>
+
+    <string name="question_answer4">Intricate mosaics—enormous <u>\'paintings\'</u> fashioned from millions of tiny cut stones of various colors—lining each of St. Peter\'s Basilica\'s several smaller domes.\n\nIf the writer were to delete the quotation marks around the word \'paintings,\' the sentence would primarily lose a feature that suggests:</string>
+    <string name="radio16_text">that mosaics are not paintings in the usual sense of the word.</string>
+    <string name="radio17_text">how large and complicated the mosaics in St. Peter\’s actually are.</string>
+    <string name="radio18_text">how carefully mosaics are put together.</string>
+    <string name="radio19_text">that the mosaics in St. Peter’s are not typical of mosaics in general.</string>
+
+    <string name="question_answer5">A car averages 27 miles per gallon. If gas costs $4.04 per gallon, which of the following is closest to how much the gas would cost for this car to travel 2,727 typical miles?</string>
+    <string name="radio20_text">$44.44</string>
+    <string name="radio21_text">$109.08</string>
+    <string name="radio22_text">$118.80</string>
+    <string name="radio23_text">$408.04</string>
+    <string name="radio24_text">$444.40</string>
+
+    <string name="question_answer6">What is the value of x when 2x + 3 = 3x -4 ?</string>
+    <string name="radio25_text">-7</string>
+    <string name="radio26_text">-1/5</string>
+    <string name="radio27_text">1</string>
+    <string name="radio28_text">1/5</string>
+    <string name="radio29_text">7</string>
+
+    <string name="question_answer7">What is the greatest common factor of 42, 126, and 210?</string>
+    <string name="radio30_text">2</string>
+    <string name="radio31_text">6</string>
+    <string name="radio32_text">14</string>
+    <string name="radio33_text">21</string>
+    <string name="radio34_text">42</string>
+
+    <string name="question_answer9">A DVD player with a list price of $100 is marked down 30 percent. If John gets an employee discount of 20 percent off the sale price, how much does John pay for the DVD player?</string>
+    <string name="radio40_text">$86.00</string>
+    <string name="radio41_text">$77.60</string>
+    <string name="radio42_text">$56.00</string>
+    <string name="radio43_text">$50.00</string>
+    <string name="radio44_text">$44.00</string>
+
+    <string name="reading_passage"><b>\nPersonality Disorders</b>
+\n\nHow should the law treat a mentally disturbed
+person who commits a criminal offense? Should individuals whose mental faculties are impaired be held
+responsible for their actions? These questions are of
+concern to social scientists, to members of the legal
+profession, and to individuals who work with criminal
+offenders.
+\n\nOver the centuries, an important part of Western
+law has been the concept that a civilized society should
+not punish a person who is mentally incapable of controlling his or her conduct. In 1724, an English court
+maintained that a man was not responsible for an act if
+\'he doth not know what he is doing, no more than . . . a
+wild beast.\' Modern standards of legal responsibility,
+however, have been based on the McNaghten decision
+of 1843. McNaghten, a Scotsman, suffered the paranoid
+delusion that he was being persecuted by the English
+prime minister, Sir Robert Peel. In an attempt to kill
+Peel, he mistakenly shot Peel\'s secretary. Everyone
+involved in the trial was convinced by McNaghten\'s
+senseless ramblings that he was insane. He was judged
+not responsible by reason of insanity and sent to a
+mental hospital, where he remained until his death. But
+Queen Victoria was not pleased with the verdict—
+apparently she felt that political assassinations should
+not be taken lightly—and called on the House of Lords
+to review the decision. The decision was upheld and
+rules for the legal definition of insanity were put into
+writing. The McNaghten Rule states that a defendant
+may be found \'not guilty by reason of insanity\' only if
+he were so severely disturbed at the time of his act that
+he did not know what he was doing, or that if he did
+know what he was doing, he did not know it was wrong.
+\n\nThe McNaghten Rule was adopted in the United
+States, and the distinction of knowing right from wrong
+remained the basis of most decisions of legal insanity
+for over a century. During the 1970s, a number of state and federal
+courts adopted a broader legal definition of insanity
+proposed by the American Law Institute, which states:
+\'A person is not responsible for criminal conduct if at
+the time of such conduct, as a result of mental disease
+or defect, he lacks substantial capacity either to appreciate the wrongfulness of his conduct or to conform his
+conduct to the requirements of the law.\' The word substantial suggests that \'any\' incapacity is not enough to
+avoid criminal responsibility but that \'total\' incapacity
+is not required either. The use of the word appreciate
+rather than know implies that intellectual awareness of
+right or wrong is not enough; individuals must have
+some understanding of the moral or legal consequences
+of their behavior before they can be held criminally
+responsible.
+\n\nThe problem of legal responsibility in the case of
+mentally disordered individuals is currently a topic of
+intense debate, and a number of legal and mental health
+professionals have recommended abolishing the
+insanity plea as a defense. Many experts believe that the
+current courtroom procedures—in which psychiatrists
+and psychologists for the prosecution and the defense
+present contradictory evidence as to the defendant\'s
+mental state—are confusing to the jury and do little to
+help the cause of justice. Some also argue that the
+abuse of the insanity plea by clever lawyers has
+allowed too many criminals to escape conviction.
+\n\nDespite the current controversy, actual cases of
+acquittal by reason of insanity are quite rare. Jurors
+seem reluctant to believe that people are not morally
+responsible for their acts, and lawyers, knowing that an
+insanity plea is apt to fail, tend to use it only as a last
+resort. In California in 1980, only 259 defendants (out
+of approximately 52,000) were successful in pleading
+not guilty by reason of insanity.</string>
+
+    <string name="question_answer10">One of the author\'s main points about the legal concept of responsibility in the passage is that:</string>
+    <string name="radio45_text">the phrase \'not guilty by reason of insanity\' has made our legal system more efficient.</string>
+    <string name="radio46_text"><i>responsibility</i> and <i>guilt</i> are legal concepts, and their meanings can be modified.</string>
+    <string name="radio47_text">knowing right from wrong is a simple matter of admitting the truth to oneself.</string>
+    <string name="radio48_text">people can become severely disturbed without a word of warning to anyone.</string>
+
+    <string name="question_answer11">Based on the passage, the primary purpose for the 1970s redefinition of insanity proposed by the American Law Institute was to:</string>
+    <string name="radio49_text">eliminate the insanity defense from American courtrooms.</string>
+    <string name="radio50_text">more precisely define the concepts of responsibility and intellectual capacity.</string>
+    <string name="radio51_text">redefine legal insanity so that it might include as many criminals as possible.</string>
+    <string name="radio52_text">apply the McNaghten Rule only to trials involving cases of mistaken identity.</string>
+
+    <string name="question_answer13">According to the explanation provided in the third paragraph, use of the word <i>appreciate</i> in the phrase \'to appreciate the wrongfulness\' instead of <i>know</i> implies which of the following?</string>
+    <string name="radio57_text">The difference between right and wrong is something people feel rather than know, which makes deciding legal responsibility difficult.</string>
+    <string name="radio58_text">To <i>know</i> implies certainty, and distinguishing right from wrong is often a subjective matter in determining legal responsibility.</string>
+    <string name="radio59_text">The word <i>appreciate</i> suggests that an action and that action’s implications must be understood for there to be legal responsibility.</string>
+    <string name="radio60_text">An insane person would \'know\' something the way a sane person would \'know\' something, and be able to appreciate that knowledge, too.</string>
+
+    <string name="question_answer14">The passage indicates that the McNaghten case became the basis for future decisions about legal insanity because:</string>
+    <string name="radio61_text">the House of Lords upheld the verdict of the court despite considerable political pressure.</string>
+    <string name="radio62_text">there had been an increase in cases of murder involving mistaken identity arising from delusions.</string>
+    <string name="radio63_text">McNaghten was unable to convince the jury at his trial that he was incoherent and insane.</string>
+    <string name="radio64_text">McNaghten used a gun to commit murder, thus aggravating the crime in the jury’s mind.</string>
+
+
+    <string name="science_passage">\nUnmanned spacecraft taking images of Jupiter\'s moon Europa have found its surface to be very smooth with few meteorite craters. Europa\'s surface ice shows evidence of being continually resmoothed and reshaped. Cracks, dark bands, and pressure ridges (created when water or slush is squeezed up between 2 slabs of ice) are commonly seen in images of the surface. Two scientists express their views as to whether the presence of a deep ocean beneath the surface is responsible for Europa’s surface features.\n\n
+        <i>Scientist 1</i>\nA deep ocean of liquid water exists on Europa. Jupiter\'s gravitational field produces tides within Europa that can cause heating of the subsurface to a point where liquid water can exist. The numerous cracks and dark bands in the surface ice closely resemble the appearance of thawing ice covering the polar oceans on Earth. Only a substantial amount of circulating liquid water can crack and rotate such large slabs of ice. The few meteorite craters that exist are shallow and have been smoothed by liquid water that oozed up into the crater from the subsurface and then quickly froze. Jupiter\'s magnetic field, sweeping past Europa, would interact with the salty, deep ocean and produce a second magnetic field around Europa. The spacecraft has found evidence of this second magnetic field.\n\n
+        <i>Scientist 2</i>\nNo deep, liquid water ocean exists on Europa. The heat generated by gravitational tides is quickly lost to space because of Europa\'s small size, as shown by its very low surface temperature (–160°C). Many of the features on Europa’s surface resemble features created by flowing glaciers on Earth. Large amounts of liquid water are not required for the creation of these features. If a thin layer of ice below the surface is much warmer than the surface ice, it may be able to flow and cause cracking and movement of the surface ice. Few meteorite craters are observed because of Europa’s very thin atmosphere; surface ice continually sublimes (changes from solid to gas) into this atmosphere, quickly eroding and removing any craters that may have formed.</string>
+
+    <string name="question_answer15">Which of the following best describes how the 2 scientists explain how craters are removed from Europa\'s surface?</string>
+    <string name="radio65_text">Scientist 1: Sublimation\nScientist 2: Filled in by water</string>
+    <string name="radio66_text">Scientist 1: Filled in by water\nScientist 2: Sublimation</string>
+    <string name="radio67_text">Scientist 1: Worn smooth by wind\nScientist 2: Sublimation</string>
+    <string name="radio68_text">Scientist 1: Worn smooth by wind\nScientist 2: Filled in by water</string>
+
+    <string name="question_answer16">According to the information provided, which of the following descriptions of Europa would be accepted by both scientists?</string>
+    <string name="radio69_text">Europa has a larger diameter than does Jupiter.</string>
+    <string name="radio70_text">Europa has a surface made of rocky material.</string>
+    <string name="radio71_text">Europa has a surface temperature of 20°C.</string>
+    <string name="radio72_text">Europa is completely covered by a layer of ice.</string>
+
+    <string name="question_answer17">Which of the following statements about meteorite craters on Europa would be most consistent with both scientists\' views?</string>
+    <string name="radio73_text">No meteorites have struck Europa for millions of years.</string>
+    <string name="radio74_text">Meteorite craters, once formed, are then smoothed or removed by Europa\'s surface processes.</string>
+    <string name="radio75_text">Meteorite craters, once formed on Europa, remain unchanged for billions of years.</string>
+    <string name="radio76_text">Meteorites frequently strike Europa\'s surface but do not leave any craters.</string>
+
+    <string name="question_answer18">Scientist 2 explains that ice sublimes to water vapor and enters Europa\'s atmosphere. If ultraviolet light then broke those water vapor molecules apart, which of the following gases would one most likely expect to find in Europa\'s atmosphere as a result of this process?</string>
+    <string name="radio77_text">Nitrogen</string>
+    <string name="radio78_text">Methane</string>
+    <string name="radio79_text">Chlorine</string>
+    <string name="radio80_text">Oxygen</string>
+
+</resources>

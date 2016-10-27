@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.madstudent.twentyandabove.practiceQuestions"
+    tools:showIn="@layout/activity_practice_questions">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:fadeScrollbars="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <!-- ENGLISH QUESTIONS -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/englishHeader"
+                android:text="@string/english_header"
+                android:paddingLeft="5dp"
+                android:paddingTop="15dp" />
+
+            <!-- english question 1 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question0"
+                android:text="@string/question_answer0"
+                android:editable="true"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/question0">
+
+                <RadioButton
+                    android:id="@+id/radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio0_text" />
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio1_text" />
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio2_text" />
+
+                <RadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio3_text" />
+
+            </RadioGroup>
+
+            <!-- english question 2 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question1"
+                android:text="@string/question_answer1"
+                android:editable="true"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/radioGroup0" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/question1">
+
+                <RadioButton
+                    android:id="@+id/radio4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio4_text" />
+
+                <RadioButton
+                    android:id="@+id/radio5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio5_text" />
+
+                <RadioButton
+                    android:id="@+id/radio6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio6_text" />
+
+                <RadioButton
+                    android:id="@+id/radio7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio7_text" />
+
+            </RadioGroup>
+
+            <!-- english question 3 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question2"
+                android:text="@string/question_answer2"
+                android:editable="true"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/radioGroup1" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/question2">
+
+                <RadioButton
+                    android:id="@+id/radio8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio8_text" />
+
+                <RadioButton
+                    android:id="@+id/radio9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio9_text" />
+
+                <RadioButton
+                    android:id="@+id/radio10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio10_text" />
+
+                <RadioButton
+                    android:id="@+id/radio11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio11_text" />
+
+            </RadioGroup>
+
+            <!-- english question 4 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question4"
+                android:text="@string/question_answer4"
+                android:editable="true"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/radioGroup3" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/question4">
+
+                <RadioButton
+                    android:id="@+id/radio16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio16_text" />
+
+                <RadioButton
+                    android:id="@+id/radio17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio17_text" />
+
+                <RadioButton
+                    android:id="@+id/radio18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio18_text" />
+
+                <RadioButton
+                    android:id="@+id/radio19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio19_text" />
+
+            </RadioGroup>
+
+            <!-- MATH QUESTIONS -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mathHeader"
+                android:text="@string/math_header"
+                android:paddingLeft="5dp"
+                android:paddingTop="25dp" />
+
+            <!-- math question 1 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question5"
+                android:text="@string/question_answer5"
+                android:editable="true"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/mathHeader" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/question5">
+
+                <RadioButton
+                    android:id="@+id/radio20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio20_text" />
+
+                <RadioButton
+                    android:id="@+id/radio21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio21_text" />
+
+                <RadioButton
+                    android:id="@+id/radio22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio22_text" />
+
+                <RadioButton
+                    android:id="@+id/radio23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio23_text" />
+
+                <RadioButton
+                    android:id="@+id/radio24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio24_text" />
+
+            </RadioGroup>
+
+            <!-- math question 2 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question6"
+                android:text="@string/question_answer6"
+                android:editable="true"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/radioGroup5" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/question6">
+
+                <RadioButton
+                    android:id="@+id/radio25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio25_text" />
+
+                <RadioButton
+                    android:id="@+id/radio26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio26_text" />
+
+                <RadioButton
+                    android:id="@+id/radio27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio27_text" />
+
+                <RadioButton
+                    android:id="@+id/radio28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio28_text" />
+
+                <RadioButton
+                    android:id="@+id/radio29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio29_text" />
+
+            </RadioGroup>
+
+            <!-- math question 3 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question7"
+                android:text="@string/question_answer7"
+                android:editable="true"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/radioGroup6" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/question7" >
+
+                <RadioButton
+                    android:id="@+id/radio30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio30_text" />
+
+                <RadioButton
+                    android:id="@+id/radio31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio31_text" />
+
+                <RadioButton
+                    android:id="@+id/radio32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio32_text" />
+
+                <RadioButton
+                    android:id="@+id/radio33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio33_text" />
+
+                <RadioButton
+                    android:id="@+id/radio34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio34_text" />
+
+            </RadioGroup>
+
+            <!-- math question 4 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question9"
+                android:text="@string/question_answer9"
+                android:editable="true"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/radioGroup8" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/question9" >
+
+                <RadioButton
+                    android:id="@+id/radio40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio40_text" />
+
+                <RadioButton
+                    android:id="@+id/radio41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio41_text" />
+
+                <RadioButton
+                    android:id="@+id/radio42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio42_text" />
+
+                <RadioButton
+                    android:id="@+id/radio43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio43_text" />
+
+                <RadioButton
+                    android:id="@+id/radio44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio44_text" />
+
+            </RadioGroup>
+
+            <!-- READING QUESTIONS -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/readingHeader"
+                android:text="@string/reading_header"
+                android:paddingLeft="5dp"
+                android:paddingTop="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/readingPassage"
+                android:text="@string/reading_passage"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"/>
+
+            <!-- reading question 1 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question10"
+                android:text="@string/question_answer10"
+                android:editable="true"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/readingPassage" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/question10">
+
+                <RadioButton
+                    android:id="@+id/radio45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio45_text" />
+
+                <RadioButton
+                    android:id="@+id/radio46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio46_text" />
+
+                <RadioButton
+                    android:id="@+id/radio47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio47_text" />
+
+                <RadioButton
+                    android:id="@+id/radio48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio48_text" />
+
+            </RadioGroup>
+
+            <!-- reading question 2 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question11"
+                android:text="@string/question_answer11"
+                android:editable="true"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/radioGroup10" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/question11">
+
+                <RadioButton
+                    android:id="@+id/radio49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio49_text" />
+
+                <RadioButton
+                    android:id="@+id/radio50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio50_text" />
+
+                <RadioButton
+                    android:id="@+id/radio51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio51_text" />
+
+                <RadioButton
+                    android:id="@+id/radio52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio52_text" />
+
+            </RadioGroup>
+
+            <!-- reading question 3 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question13"
+                android:text="@string/question_answer13"
+                android:editable="true"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/radioGroup12" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/question13">
+
+                <RadioButton
+                    android:id="@+id/radio57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio57_text" />
+
+                <RadioButton
+                    android:id="@+id/radio58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio58_text" />
+
+                <RadioButton
+                    android:id="@+id/radio59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio59_text" />
+
+                <RadioButton
+                    android:id="@+id/radio60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio60_text" />
+
+            </RadioGroup>
+
+            <!-- reading question 4 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question14"
+                android:text="@string/question_answer14"
+                android:editable="true"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/radioGroup13" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/question14">
+
+                <RadioButton
+                    android:id="@+id/radio61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio61_text" />
+
+                <RadioButton
+                    android:id="@+id/radio62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio62_text" />
+
+                <RadioButton
+                    android:id="@+id/radio63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio63_text" />
+
+                <RadioButton
+                    android:id="@+id/radio64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio64_text" />
+
+            </RadioGroup>
+
+
+            <!-- SCIENCE QUESTIONS -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/scienceHeader"
+                android:text="@string/science_header"
+                android:paddingLeft="5dp"
+                android:paddingTop="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sciencePassage"
+                android:text="@string/science_passage"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+
+            <!-- science question 1 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question15"
+                android:text="@string/question_answer15"
+                android:editable="true"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/sciencePassage" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/question15">
+
+                <RadioButton
+                    android:id="@+id/radio65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio65_text" />
+
+                <RadioButton
+                    android:id="@+id/radio66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio66_text" />
+
+                <RadioButton
+                    android:id="@+id/radio67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio67_text" />
+
+                <RadioButton
+                    android:id="@+id/radio68"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio68_text" />
+
+            </RadioGroup>
+
+            <!-- science question 2 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question16"
+                android:text="@string/question_answer16"
+                android:editable="true"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/radioGroup15" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/question16">
+
+                <RadioButton
+                    android:id="@+id/radio69"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio69_text" />
+
+                <RadioButton
+                    android:id="@+id/radio70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio70_text" />
+
+                <RadioButton
+                    android:id="@+id/radio71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio71_text" />
+
+                <RadioButton
+                    android:id="@+id/radio72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio72_text" />
+
+            </RadioGroup>
+
+            <!-- science question 3 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question17"
+                android:text="@string/question_answer17"
+                android:editable="true"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/radioGroup16" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/question17">
+
+                <RadioButton
+                    android:id="@+id/radio73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio73_text" />
+
+                <RadioButton
+                    android:id="@+id/radio74"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio74_text" />
+
+                <RadioButton
+                    android:id="@+id/radio75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio75_text" />
+
+                <RadioButton
+                    android:id="@+id/radio76"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio76_text" />
+
+            </RadioGroup>
+
+            <!-- science question 4 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question18"
+                android:text="@string/question_answer18"
+                android:editable="true"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/radioGroup17" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/question18">
+
+                <RadioButton
+                    android:id="@+id/radio77"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio77_text" />
+
+                <RadioButton
+                    android:id="@+id/radio78"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio78_text" />
+
+                <RadioButton
+                    android:id="@+id/radio79"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio79_text" />
+
+                <RadioButton
+                    android:id="@+id/radio80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/radio80_text" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
