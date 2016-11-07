@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">20 and Above</string>
-    <string name="splash_screen">20 and Above</string>
 
     <string name="question_button">Practice Questions</string>
     <string name="button_text">Another Lesson</string>
@@ -24,10 +23,10 @@
     <string name="tips">• Skip Hard Questions • Use Process of Elimination •\n
         • Do Not Cram • Fill in Every Bubble • Stay Calm •</string>
 
-    <string name="english_header">ACT ENGLISH QUESTIONS</string>
-    <string name="math_header">ACT MATH QUESTIONS</string>
-    <string name="reading_header">ACT READING QUESTIONS</string>
-    <string name="science_header">ACT SCIENCE QUESTIONS</string>
+    <string name="english_header"><b>ACT ENGLISH QUESTIONS</b></string>
+    <string name="math_header"><b>ACT MATH QUESTIONS</b></string>
+    <string name="reading_header"><b>ACT READING QUESTIONS</b></string>
+    <string name="science_header"><b>ACT SCIENCE QUESTIONS</b></string>
 
     <string name="title_activity_practice_questions">Practice Questions</string>
 

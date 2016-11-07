@@ -25,7 +25,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginBottom="20dp">
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
 
             <!-- ENGLISH QUESTIONS -->
 
@@ -34,7 +36,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/englishHeader"
                 android:text="@string/english_header"
-                android:paddingLeft="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/colorAccent"
                 android:paddingTop="15dp" />
 
             <!-- english question 1 -->
@@ -44,25 +47,22 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/question0"
                 android:text="@string/question_answer0"
-                android:editable="true"
+                android:textColor="@color/colorDarkNavy"
                 android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
                 android:paddingBottom="10dp" />
 
             <RadioGroup
                 android:id="@+id/radioGroup0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
-                android:paddingLeft="5dp"
-                android:layout_below="@+id/question0">
+                android:buttonTint="@color/colorAccent">
 
                 <RadioButton
                     android:id="@+id/radio0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio0_text" />
 
                 <RadioButton
@@ -70,6 +70,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio1_text" />
 
                 <RadioButton
@@ -77,6 +78,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio2_text" />
 
                 <RadioButton
@@ -84,6 +86,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio3_text" />
 
             </RadioGroup>
@@ -95,26 +98,22 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/question1"
                 android:text="@string/question_answer1"
-                android:editable="true"
+                android:textColor="@color/colorDarkNavy"
                 android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:layout_below="@+id/radioGroup0" />
+                android:paddingBottom="10dp" />
 
             <RadioGroup
                 android:id="@+id/radioGroup1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
-                android:paddingLeft="5dp"
-                android:layout_below="@+id/question1">
+                android:buttonTint="@color/colorAccent">
 
                 <RadioButton
                     android:id="@+id/radio4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio4_text" />
 
                 <RadioButton
@@ -122,6 +121,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio5_text" />
 
                 <RadioButton
@@ -129,6 +129,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio6_text" />
 
                 <RadioButton
@@ -136,6 +137,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio7_text" />
 
             </RadioGroup>
@@ -147,26 +149,22 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/question2"
                 android:text="@string/question_answer2"
-                android:editable="true"
+                android:textColor="@color/colorDarkNavy"
                 android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:layout_below="@+id/radioGroup1" />
+                android:paddingBottom="10dp"/>
 
             <RadioGroup
                 android:id="@+id/radioGroup2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
-                android:paddingLeft="5dp"
-                android:layout_below="@+id/question2">
+                android:buttonTint="@color/colorAccent">
 
                 <RadioButton
                     android:id="@+id/radio8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio8_text" />
 
                 <RadioButton
@@ -174,6 +172,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio9_text" />
 
                 <RadioButton
@@ -181,6 +180,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio10_text" />
 
                 <RadioButton
@@ -188,6 +188,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio11_text" />
 
             </RadioGroup>
@@ -199,26 +200,22 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/question4"
                 android:text="@string/question_answer4"
-                android:editable="true"
+                android:textColor="@color/colorDarkNavy"
                 android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:layout_below="@+id/radioGroup3" />
+                android:paddingBottom="10dp" />
 
             <RadioGroup
                 android:id="@+id/radioGroup4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
-                android:paddingLeft="5dp"
-                android:layout_below="@+id/question4">
+                android:buttonTint="@color/colorAccent">
 
                 <RadioButton
                     android:id="@+id/radio16"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio16_text" />
 
                 <RadioButton
@@ -226,6 +223,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio17_text" />
 
                 <RadioButton
@@ -233,6 +231,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio18_text" />
 
                 <RadioButton
@@ -240,6 +239,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio19_text" />
 
             </RadioGroup>
@@ -251,7 +251,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/mathHeader"
                 android:text="@string/math_header"
-                android:paddingLeft="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/colorAccent"
                 android:paddingTop="25dp" />
 
             <!-- math question 1 -->
@@ -261,26 +262,22 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/question5"
                 android:text="@string/question_answer5"
-                android:editable="true"
+                android:textColor="@color/colorDarkNavy"
                 android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:layout_below="@+id/mathHeader" />
+                android:paddingBottom="10dp" />
 
             <RadioGroup
                 android:id="@+id/radioGroup5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
-                android:paddingLeft="5dp"
-                android:layout_below="@+id/question5">
+                android:buttonTint="@color/colorAccent">
 
                 <RadioButton
                     android:id="@+id/radio20"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio20_text" />
 
                 <RadioButton
@@ -288,6 +285,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio21_text" />
 
                 <RadioButton
@@ -295,6 +293,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio22_text" />
 
                 <RadioButton
@@ -302,6 +301,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio23_text" />
 
                 <RadioButton
@@ -309,6 +309,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio24_text" />
 
             </RadioGroup>
@@ -320,26 +321,22 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/question6"
                 android:text="@string/question_answer6"
-                android:editable="true"
+                android:textColor="@color/colorDarkNavy"
                 android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:layout_below="@+id/radioGroup5" />
+                android:paddingBottom="10dp" />
 
             <RadioGroup
                 android:id="@+id/radioGroup6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
-                android:paddingLeft="5dp"
-                android:layout_below="@+id/question6">
+                android:buttonTint="@color/colorAccent">
 
                 <RadioButton
                     android:id="@+id/radio25"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio25_text" />
 
                 <RadioButton
@@ -347,6 +344,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio26_text" />
 
                 <RadioButton
@@ -354,6 +352,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio27_text" />
 
                 <RadioButton
@@ -361,6 +360,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio28_text" />
 
                 <RadioButton
@@ -368,6 +368,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio29_text" />
 
             </RadioGroup>
@@ -379,26 +380,22 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/question7"
                 android:text="@string/question_answer7"
-                android:editable="true"
+                android:textColor="@color/colorDarkNavy"
                 android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:layout_below="@+id/radioGroup6" />
+                android:paddingBottom="10dp" />
 
             <RadioGroup
                 android:id="@+id/radioGroup7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
-                android:paddingLeft="5dp"
-                android:layout_below="@+id/question7" >
+                android:buttonTint="@color/colorAccent">
 
                 <RadioButton
                     android:id="@+id/radio30"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio30_text" />
 
                 <RadioButton
@@ -406,6 +403,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio31_text" />
 
                 <RadioButton
@@ -413,6 +411,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio32_text" />
 
                 <RadioButton
@@ -420,6 +419,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio33_text" />
 
                 <RadioButton
@@ -427,6 +427,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio34_text" />
 
             </RadioGroup>
@@ -438,26 +439,22 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/question9"
                 android:text="@string/question_answer9"
-                android:editable="true"
+                android:textColor="@color/colorDarkNavy"
                 android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:layout_below="@+id/radioGroup8" />
+                android:paddingBottom="10dp" />
 
             <RadioGroup
                 android:id="@+id/radioGroup9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
-                android:paddingLeft="5dp"
-                android:layout_below="@+id/question9" >
+                android:buttonTint="@color/colorAccent">
 
                 <RadioButton
                     android:id="@+id/radio40"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio40_text" />
 
                 <RadioButton
@@ -465,6 +462,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio41_text" />
 
                 <RadioButton
@@ -472,6 +470,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio42_text" />
 
                 <RadioButton
@@ -479,6 +478,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio43_text" />
 
                 <RadioButton
@@ -486,6 +486,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio44_text" />
 
             </RadioGroup>
@@ -497,7 +498,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/readingHeader"
                 android:text="@string/reading_header"
-                android:paddingLeft="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/colorAccent"
                 android:paddingTop="25dp" />
 
             <TextView
@@ -505,8 +507,10 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/readingPassage"
                 android:text="@string/reading_passage"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"/>
+                android:fontFamily="sans-serif-condensed"
+                android:lineSpacingExtra="5sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
 
             <!-- reading question 1 -->
 
@@ -515,26 +519,22 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/question10"
                 android:text="@string/question_answer10"
-                android:editable="true"
+                android:textColor="@color/colorDarkNavy"
                 android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:layout_below="@+id/readingPassage" />
+                android:paddingBottom="10dp" />
 
             <RadioGroup
                 android:id="@+id/radioGroup10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
-                android:paddingLeft="5dp"
-                android:layout_below="@+id/question10">
+                android:buttonTint="@color/colorAccent">
 
                 <RadioButton
                     android:id="@+id/radio45"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio45_text" />
 
                 <RadioButton
@@ -542,6 +542,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio46_text" />
 
                 <RadioButton
@@ -549,6 +550,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio47_text" />
 
                 <RadioButton
@@ -556,6 +558,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio48_text" />
 
             </RadioGroup>
@@ -567,26 +570,22 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/question11"
                 android:text="@string/question_answer11"
-                android:editable="true"
+                android:textColor="@color/colorDarkNavy"
                 android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:layout_below="@+id/radioGroup10" />
+                android:paddingBottom="10dp" />
 
             <RadioGroup
                 android:id="@+id/radioGroup11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
-                android:paddingLeft="5dp"
-                android:layout_below="@+id/question11">
+                android:buttonTint="@color/colorAccent">
 
                 <RadioButton
                     android:id="@+id/radio49"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio49_text" />
 
                 <RadioButton
@@ -594,6 +593,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio50_text" />
 
                 <RadioButton
@@ -601,6 +601,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio51_text" />
 
                 <RadioButton
@@ -608,6 +609,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio52_text" />
 
             </RadioGroup>
@@ -619,26 +621,22 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/question13"
                 android:text="@string/question_answer13"
-                android:editable="true"
+                android:textColor="@color/colorDarkNavy"
                 android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:layout_below="@+id/radioGroup12" />
+                android:paddingBottom="10dp" />
 
             <RadioGroup
                 android:id="@+id/radioGroup13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
-                android:paddingLeft="5dp"
-                android:layout_below="@+id/question13">
+                android:buttonTint="@color/colorAccent">
 
                 <RadioButton
                     android:id="@+id/radio57"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio57_text" />
 
                 <RadioButton
@@ -646,6 +644,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio58_text" />
 
                 <RadioButton
@@ -653,6 +652,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio59_text" />
 
                 <RadioButton
@@ -660,6 +660,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio60_text" />
 
             </RadioGroup>
@@ -671,26 +672,22 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/question14"
                 android:text="@string/question_answer14"
-                android:editable="true"
+                android:textColor="@color/colorDarkNavy"
                 android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:layout_below="@+id/radioGroup13" />
+                android:paddingBottom="10dp" />
 
             <RadioGroup
                 android:id="@+id/radioGroup14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
-                android:paddingLeft="5dp"
-                android:layout_below="@+id/question14">
+                android:buttonTint="@color/colorAccent">
 
                 <RadioButton
                     android:id="@+id/radio61"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio61_text" />
 
                 <RadioButton
@@ -698,6 +695,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio62_text" />
 
                 <RadioButton
@@ -705,6 +703,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio63_text" />
 
                 <RadioButton
@@ -712,6 +711,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio64_text" />
 
             </RadioGroup>
@@ -724,7 +724,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/scienceHeader"
                 android:text="@string/science_header"
-                android:paddingLeft="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/colorAccent"
                 android:paddingTop="25dp" />
 
             <TextView
@@ -732,8 +733,10 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/sciencePassage"
                 android:text="@string/science_passage"
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp"/>
+                android:fontFamily="sans-serif-condensed"
+                android:lineSpacingExtra="5sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
 
             <!-- science question 1 -->
 
@@ -742,26 +745,22 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/question15"
                 android:text="@string/question_answer15"
-                android:editable="true"
+                android:textColor="@color/colorDarkNavy"
                 android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:layout_below="@+id/sciencePassage" />
+                android:paddingBottom="10dp" />
 
             <RadioGroup
                 android:id="@+id/radioGroup15"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
-                android:paddingLeft="5dp"
-                android:layout_below="@+id/question15">
+                android:buttonTint="@color/colorAccent">
 
                 <RadioButton
                     android:id="@+id/radio65"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio65_text" />
 
                 <RadioButton
@@ -769,6 +768,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio66_text" />
 
                 <RadioButton
@@ -776,6 +776,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio67_text" />
 
                 <RadioButton
@@ -783,6 +784,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio68_text" />
 
             </RadioGroup>
@@ -794,26 +796,22 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/question16"
                 android:text="@string/question_answer16"
-                android:editable="true"
+                android:textColor="@color/colorDarkNavy"
                 android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:layout_below="@+id/radioGroup15" />
+                android:paddingBottom="10dp" />
 
             <RadioGroup
                 android:id="@+id/radioGroup16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
-                android:paddingLeft="5dp"
-                android:layout_below="@+id/question16">
+                android:buttonTint="@color/colorAccent">
 
                 <RadioButton
                     android:id="@+id/radio69"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio69_text" />
 
                 <RadioButton
@@ -821,6 +819,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio70_text" />
 
                 <RadioButton
@@ -828,6 +827,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio71_text" />
 
                 <RadioButton
@@ -835,6 +835,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio72_text" />
 
             </RadioGroup>
@@ -846,26 +847,22 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/question17"
                 android:text="@string/question_answer17"
-                android:editable="true"
+                android:textColor="@color/colorDarkNavy"
                 android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:layout_below="@+id/radioGroup16" />
+                android:paddingBottom="10dp" />
 
             <RadioGroup
                 android:id="@+id/radioGroup17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
-                android:paddingLeft="5dp"
-                android:layout_below="@+id/question17">
+                android:buttonTint="@color/colorAccent">
 
                 <RadioButton
                     android:id="@+id/radio73"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio73_text" />
 
                 <RadioButton
@@ -873,6 +870,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio74_text" />
 
                 <RadioButton
@@ -880,6 +878,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio75_text" />
 
                 <RadioButton
@@ -887,6 +886,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio76_text" />
 
             </RadioGroup>
@@ -898,26 +898,22 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/question18"
                 android:text="@string/question_answer18"
-                android:editable="true"
+                android:textColor="@color/colorDarkNavy"
                 android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:layout_below="@+id/radioGroup17" />
+                android:paddingBottom="10dp" />
 
             <RadioGroup
                 android:id="@+id/radioGroup18"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
-                android:paddingLeft="5dp"
-                android:layout_below="@+id/question18">
+                android:buttonTint="@color/colorAccent">
 
                 <RadioButton
                     android:id="@+id/radio77"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio77_text" />
 
                 <RadioButton
@@ -925,6 +921,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio78_text" />
 
                 <RadioButton
@@ -932,6 +929,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio79_text" />
 
                 <RadioButton
@@ -939,9 +937,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="onRadioButtonClicked"
+                    android:fontFamily="sans-serif-light"
                     android:text="@string/radio80_text" />
 
             </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/padding"
+                android:paddingTop="10dp"/>
 
         </LinearLayout>
 
